@@ -42,6 +42,7 @@ Right | Right Arrow
 
 ## A.I. Explanation:
 
+The AI for PyTron is fairly simple. We have two AIs, one random AI and one that considers 'controlled territory'
 (default). The random AI will for every tick simply have a 10% chance to chose a new direction. The territory
 based AI is slightly more sophisticated and calculates the total number of reachable squares that a player can reach
 before all other players for a given direction. For every tick, the territory based AI will consider all possible moves
